@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: hidden;
+  color: pink;
+  text-align: center;
+  font: 20px "comic sans ms";
+}
+
+
+#output {
+   padding: 0.5rem 0;
+}
