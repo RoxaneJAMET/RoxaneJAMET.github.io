@@ -15,18 +15,19 @@
  <h3> Clique sur le bouton "STOP" lorsque tu es dans les 4 secondes pour gagner ! </h3>
  
  
- <button onclick="setTimeout();">
- START
-</button>
-
-<button onclick="clearTimeout();">
-STOP
-</button>
+ <div id="wrapper">
+ <div id="chrono">0</div>
+     <div id="buttons">
+     <button id="start" class="button">START</button>
+	 <button id="stop" class="button">STOP</button>
+	 <button id="reset" class="button">RESET</button>
+ </div>
+ 
 
  
  <canvas class="myCanvas">
   <p>Un contenu alternatif pertinent ici.</p>
-  <img src="chatdrole.jpg"/>
+  
 </canvas>
   </body>
 </html>
