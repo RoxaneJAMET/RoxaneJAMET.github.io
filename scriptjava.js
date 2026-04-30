@@ -6,17 +6,10 @@ const ctx = canvas.getContext('2d');
 
 //Fonctionnalité du timer
 
-let timeoutID;
+let secondes = document.getElementById("chrono");
+let stopBtn = document.getElementById("chrono");
+let startBtn = document.getElementById("chrono");
+let resetBtn = document.getElementById("chrono");
 
-function setOutput(outputContent) {
-  document.querySelector("#output").textContent = outputContent;
-}
+let secondes = 0;
 
-function delayedMessage() {
-  setOutput("");
-  timeoutID = setTimeout(setOutput, 4 * 1000, "Perdu ):");
-}
-
-function clearMessage() {
-  clearTimeout(timeoutID);
-}
